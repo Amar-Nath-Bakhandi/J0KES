@@ -1,0 +1,17 @@
+{
+    "name": "Jokes",
+    "version": "1.0.0",
+    "description": "It lightens up the mood after a hard day of work, this content is solely made for humor!",
+    "manifest_version": 3,
+    "author": "Amar Nath Bakhandi",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Wanna hear a joke?"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=PT+Serif&family=Playfair+Display:ital@1&family=Roboto+Mono:ital,wght@1,200&family=Share+Tech+Mono&display=swap');
+
+body{
+  margin:0;
+  display:flex; /* Changed the container to center */
+  min-height:100vh;
+  justify-content: center;
+  align-items: center;
+    /* background: linear-gradient(to right top, turquoise, pink, turquoise); */
+    background: linear-gradient(to right top, rgb(197, 91, 91) , pink, turquoise);
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+}
+.joke {
+  font-family: "Share Tech Mono", monospace;
+}
+.disclaimer {
+  font-style: italic;
+}
+.container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto; 
+  background-color: rgb(255, 255, 255, 0.35);
+  padding: 20px;
+  border-radius: 15px;
+  width: 85%;
+  box-shadow: 0 6px 10px rgb(0, 0, 0, 0.35); 
+}
+
+.card-text {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10px;
+}
+footer {
+  font-size: small;
+}
