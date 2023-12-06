@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet&family=PT+Serif&family=Playfair+Display:ital@1&family=Roboto+Mono:ital,wght@1,200&family=Share+Tech+Mono&display=swap');
 
+/* #E0A0B5 = Amaranth Pink* */
+
 body{
   margin:0;
   display:flex; /* Changed the container to center */
@@ -7,7 +9,7 @@ body{
   justify-content: center;
   align-items: center;
     /* background: linear-gradient(to right top, turquoise, pink, turquoise); */
-    background: linear-gradient(to right top, rgb(197, 91, 91) , pink, turquoise);
+    background: linear-gradient(to right top, rgb(197, 91, 91) , #E0A0B5, turquoise); 
 }
 
 .heading {
@@ -16,6 +18,24 @@ body{
 .joke {
   font-family: "Share Tech Mono", monospace;
 }
+
+.myBtn{
+  font-size: 16px;
+  border-radius: 14px;
+  padding:12px;
+  font-weight: 650;
+  cursor:pointer;
+  background-color: rgba(255,255,255,0.35);
+  border-color:rgba(255,255,255,0.6);
+  color: #FF8822;
+  
+  
+}
+.myBtn:hover{
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+}
+
 .disclaimer {
   font-style: italic;
 }
@@ -37,6 +57,7 @@ body{
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-bottom: 0px; 
   background-color: black;
   color: white;
   text-align: center;
