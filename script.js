@@ -15,7 +15,7 @@ const apiUrl = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
 btnElement.addEventListener(`click`, async () => {
   // console.log("anything but happiness")
 
-  jokeElement.innerText = "Updating..."; // It shows this text after the button is clicked, Note: Gives an interactive screen
+  jokeElement.innerText = "Loading..."; // It shows this text after the button is clicked, Note: Gives an interactive screen
 
   const response = await fetch(apiUrl, options);
   const data = await response.json();
